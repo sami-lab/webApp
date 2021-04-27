@@ -1,0 +1,167 @@
+<html>
+  <head>
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div>
+      <div class="d-flex justify-content-center h-100">
+        <div class="d-flex flex-column py-3 px-0 my-3 h-100" style="border: 1px solid black">
+          <!-- Top scan heading -->
+          <div
+            class="row mx-3 justify-content-between align-items-center py-3 px-3"
+            style="height: 15%;"
+          >
+            <div>
+              <h1 class="display-1">Scan</h1>
+            </div>
+            <div
+              style="
+                border-radius: 50%;
+                border: 0px solid #261a1a;
+                background-color: #261a1a;
+              "
+            >
+              <i
+                class="fas fa-question-circle fa-4x"
+                style="color: #cfcbc8"
+              ></i>
+            </div>
+          </div>
+          <!-- bar code -->
+          <div class="my-3 py-2">
+            <button
+              type="button"
+              class="btn btn-outline-dark btn-block"
+              style="
+                font-size: 3rem;
+                border-radius: 40px;
+                border-left: 0;
+                border-right: 0;
+                font-weight: 500;
+                padding: 70px 0px;
+          
+              "
+            >
+              Scan barcode to find a product
+            </button>
+          </div>
+          <!-- heading -->
+          <div class="mx-3 my-5">
+            <button
+              type="button"
+              class="btn btn-primary btn-block"
+              style="border-radius: 10px; font-size: 3rem; padding: 70px 0px"
+            >
+              Enter Manually
+            </button>
+          </div>
+          <!-- Categories Input -->
+          <div class="mx-3 h-25">
+            <h1 class="py-4 text-center display-3 font-weight-bold">
+              Categories
+            </h1>
+            <!-- input group -->
+            <div class="mx-auto input-group mb-5 col-8 justify-content-center">
+              <input
+                type="text"
+                name="category1"
+                class="form-control"
+                maxlength="1"
+                style="
+                  background-image: linear-gradient(180deg, white, #b6b6b6);
+                  border: 1px solid black;
+                  font-size: 5rem;
+                  padding: 80px 20px;
+                  text-align: center;
+                "
+              />
+              <input
+                type="text"
+                name="category2"
+                class="form-control"
+                maxlength="1"
+                style="
+                  background-image: linear-gradient(180deg, white, #b6b6b6);
+                  border: 1px solid black;
+                  font-size: 5rem;
+                  padding: 80px 20px;
+                  text-align: center;
+                "
+              />
+              <input
+                type="text"
+                name="category3"
+                class="form-control"
+                maxlength="1"
+                style="
+                  background-image: linear-gradient(180deg, white, #b6b6b6);
+                  border: 1px solid black;
+                  font-size: 5rem;
+                  padding: 80px 20px;
+                  text-align: center;
+                "
+              />
+              <input
+                type="text"
+                name="category4"
+                class="form-control"
+                maxlength="1"
+                style="
+                  border: 1px solid black;
+                  background-image: linear-gradient(180deg, white, #b6b6b6);
+                  font-size: 5rem;
+                  padding: 80px 20px;
+                  text-align: center;
+                "
+              />
+            </div>
+          </div>
+
+          <!-- location input -->
+          <div style="margin-top: 100px">
+            <div class="row justify-content-center align-items-center">
+              <div class="col-5">
+                <input
+                  type="text"
+                  class="form-control py-5"
+                  style="
+                    font-size: 5rem;
+                    background-image: linear-gradient(180deg, black, white);
+                  "
+                />
+              </div>
+              <div class="col-5">
+                <button
+                  type="button"
+                  class="btn btn-dark btn-block"
+                  style="padding: 2.5rem 10px; font-size: 2rem"
+                >
+                  Locations
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
