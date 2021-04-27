@@ -28,10 +28,10 @@
           <!-- Top scan heading -->
           <div
             class="row mx-3 justify-content-between align-items-center py-3 px-3"
-            style="height: 15%;"
+            style="height: 10%;"
           >
             <div>
-              <h1 class="display-1">Location</h1>
+              <h1 class="display-2 font-weight-bold">Location</h1>
             </div>
             <div
               style="
@@ -41,31 +41,57 @@
               "
             >
               <i
-                class="fas fa-question-circle fa-4x"
+                class="fas fa-question-circle fa-5x"
                 style="color: #cfcbc8"
               ></i>
             </div>
           </div>
-          <!-- bar code -->
-          <div class="my-3 py-2">
-            <button
-              type="button"
-              class="btn btn-outline-dark btn-block"
-              style="
-                font-size: 3rem;
-                border-radius: 40px;
-                border: 2px solid black;
-                border-left: 0;
-                border-right: 0;
-                font-weight: 500;
-                padding: 70px 0px;
-              "
-            >
-              Enter barcode to find a product
-            </button>
+          <!-- Item heading -->
+          <div class="my-1">
+            <h1 class="py-4 text-center display-3 font-weight-bold">
+                Item1
+              </h1>
           </div>
-            <div style="flex: 1; display: flex; align-items: center; justify-content: center;">
-                 <h1 class="display-2" style="font-weight: 400;">Item Not Found</h1>
+            <!-- Items -->
+            <div style="flex: 1;">
+                <div class="my-5 mx-5">
+                    <button
+                      type="button"
+                      class="btn btn-primary btn-block font-weight-bold"
+                      style="border-radius: 30px; font-size: 3.5rem; padding: 50px 0px; border: 1px solid black;"
+                    >
+                      Ailse 1 : 150
+                    </button>
+                  </div>
+                  <div class="my-5 mx-5">
+                    <button
+                      type="button"
+                      class="btn btn-primary btn-block font-weight-bold"
+                      style="border-radius: 30px; font-size: 3.5rem; padding: 50px 0px; border: 1px solid black;"
+                    >
+                    Ailse 2 : 250
+                    </button>
+                  </div>
+                  <div class="my-5 mx-5">
+                    <button
+                      type="button"
+                      class="btn btn-primary btn-block font-weight-bold"
+                      style="border-radius: 30px; font-size: 3.5rem; padding: 50px 0px; border: 1px solid black;"
+                    >
+                    Ailse 3 : 250
+                    </button>
+                  </div>
+            </div>
+            <div>
+                <div class="mx-5">
+                    <button
+                      type="button"
+                      class="btn btn-primary btn-block font-weight-bold"
+                      style="border-radius: 30px; font-size: 3.5rem; padding: 50px 0px; border: 1px solid black;"
+                    >
+                     Add Inventory
+                    </button>
+                  </div>
             </div>
           <!-- 2 button -->
           <div style="margin-top: 100px; margin-bottom: 50px;">
@@ -74,9 +100,10 @@
                 <button
                 type="button"
                 class="btn btn-dark btn-block font-weight-bold"
-                style="padding: 3.5rem 10px; border-radius: 20px; font-size: 3rem; background-color: #001932; color: #fff;"
+                style="padding: 3.5rem 10px; border-radius: 20px; font-size: 3rem;   background-image: linear-gradient(180deg, white, #b6b6b6);
+                border: 1px solid black; color: #000;"
               >
-                Add Items
+                Back
               </button>
               </div>
               <div class="col-5">
@@ -85,7 +112,7 @@
                   class="btn btn-block font-weight-bold"
                   style="padding: 3.5rem 10px; font-size: 3rem; border-radius: 20px; background-color: #001932; color: #fff;"
                 >
-                  Locations
+                  Scan
                 </button>
               </div>
             </div>
