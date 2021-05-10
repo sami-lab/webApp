@@ -17,126 +17,129 @@
 </head>
 
 <body>
-  <div class="container-fluid d-flex flex-column py-3 px-0 h-100" style="border: 1px solid black">
+  <div class="d-flex  justify-content-center flex-column" style="min-height: 100%;">
+    <div style="display: flex; flex-direction: column; border: 2px solid black; flex-grow: 1;" class="py-3 px-0 mx-3 my-3 ">
+
     <!-- Top div -->
-    <div class="row mx-3 justify-content-between align-items-center px-3" style="height: 10%;">
-      <!-- Top heading -->
-      <div class="col-3 ">
-        <h1 class="display-4 font-weight-bold py-4 my-4">Item</h1>
+    <div
+    class="row mx-3 justify-content-between align-items-center mt-2 py-2 px-3"
+     
+    >
+      <div>
+        <h1 class="display-4 font-weight-bold">Transfer</h1>
       </div>
-      <!-- Icon div -->
-      <div class="col-2">
-        <i class="fas fa-question-circle fa-4x" style="
-          color: #cfcbc8; background-color: black;
+      <div
+        style="
           border-radius: 50%;
-          border: 0px solid #261a1a;"></i>
+          border: 0px solid #261a1a;
+          background-color: #261a1a;
+        "
+      >
+        <i
+          class="fas fa-question-circle fa-5x"
+          style="color: #cfcbc8"
+        ></i>
       </div>
     </div>
+
     <!-- From -->
-    <div class="row" style="height: 10%;">
-
-      <div class="col-12 d-flex justify-content-center align-items-center">
-        <h3 class="font-weight-bold display-2 ">From</h3>
-      </div>
-
+    <div class=" mt-5">
+        <h1 class="display-4 font-weight-bold  text-center">Transfer</h1>   
     </div>
 
     <!-- Aisle 1 -->
-    <div class="row" style="height: 10%;">
-
-      <div class="col-12 d-flex justify-content-center align-items-center">
-        <h3 class="font-weight-bold display-2 ">Aisle 1</h3>
-      </div>
-
+    <div class="mt-3">
+        <h1 class="display-3 font-weight-bold text-center">Aisle 1</h1>
     </div>
 
     <!-- Available qty -->
-    <div class="row" style="height: 10%;">
-
-      <div class="col-12 d-flex justify-content-center align-items-center">
-        <h3 class="font-weight-bold display-2 ">Available Qty</h3>
-      </div>
-
+    <div class="mt-5">
+        <h3 class="font-weight-bold display-3 text-center">Available Qty</h3>
     </div>
     <!-- Available qty -->
-    <div class="row" style="height: 10%;">
+    <div class="row mb-5" >
       <div class="col-12 d-flex justify-content-center align-items-center">
         <h3 class="font-weight-bold display-2 ">250</h3>
       </div>
     </div>
 
     <!-- to: -->
-    <div class="row" style="height: 10%;">
+    <div class="row mt-5 mb-3">
       <div class="col-4 d-flex justify-content-end align-items-center">
-        <h3 class="font-weight-bold display-2 ">TO:</h3>
+        <h3 class="font-weight-bold display-3 ">To : </h3>
       </div>
 
       <div class="col-6 d-flex justify-content-start align-items-center" >
-
-        <button style="width: 100%; font-size: 3rem;" class="btn btn-outline-secondary dropdown-toggle" type="button"
-          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
-        <div class="dropdown-menu" style="width: 100%;">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-          <div role="separator" class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Separated link</a>
-        </div>
+      <!-- Example split danger button -->
+<div class="btn-group" style=" width: 100%;">
+  <button type="button" style="width: 80%; font-size: 3rem; text-align: left; border-top-left-radius: 20px; border-bottom-left-radius: 20px;"  class="btn btn-outline-secondary p-3">Action</button>
+  <button type="button" style="width: 20%; border-top-right-radius: 20px; border-bottom-right-radius: 20px; opacity: 0.7; font-size: 55px;" class="font-weight-bolder btn btn-lg btn-info dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <div class="dropdown-menu"  style="width: 100%;">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">Separated link</a>
+  </div>
+</div>
       </div>
     </div>
     <!-- Qty: -->
-    <div class="row" style="height: 10%;">
+    <div class="row mt-5 mb-5">
       <div class="col-4 d-flex justify-content-end align-items-center">
-        <h3 class="font-weight-bold display-2 ">Qty:</h3>
+        <h3 class="font-weight-bold display-3 ">Qty : </h3>
       </div>
 
       <div class="col-6 d-flex justify-content-start align-items-center" >
-
-        <button style="width: 100%; font-size: 3rem;" class="btn btn-outline-secondary dropdown-toggle" type="button"
-          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
-        <div class="dropdown-menu" style="width: 100%;">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-          <div role="separator" class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Separated link</a>
+        <div class="btn-group" style=" width: 100%;">
+          <button type="button" style="width: 80%; font-size: 3rem; text-align: left; border-top-left-radius: 20px; border-bottom-left-radius: 20px;"  class="btn btn-outline-secondary p-3">100</button>
+          <button type="button" style="width: 20%; border-top-right-radius: 20px; border-bottom-right-radius: 20px; opacity: 0.7; font-size: 55px;" class="font-weight-bolder btn btn-lg btn-info dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <div class="dropdown-menu"  style="width: 100%;">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="row d-flex justify-content-center align-items-center" style="height: 20%;">
+    <div class="row d-flex justify-content-center align-items-center mt-5 mb-5" >
       <div class="col-11 d-flex justify-content-center align-items-center">
-        <button type="button" class="btn btn-warning btn-outline-dark btn-block" style="
-                font-size: 4rem;
-                font-weight: bold;
-                border-radius: 40px;
-                border-left: 0;
-                border-right: 0;
-                font-weight: 500;
-                padding: 50px 0px;">
+        <button type="button" class="btn btn-outline-dark btn-block" style="
+               background-color: #ffd65e;
+                font-size: 4.5rem;
+                letter-spacing: 1px;
+                  border-radius: 40px;
+                border: 2px solid black;
+                font-weight: 700;
+                padding: 30px 0px;">
           Confirm Transfer
         </button>
       </div>
     </div>
 
     <!-- Bottom two buttons -->
-    <div class="row " style="height: 15%;">
-      <div class="col-12 d-flex justify-content-start align-items-center">
+    <div class=" row justify-content-center mt-4">
+      <div class="col-9">
         <button class="btn btn-secondary  font-weight-bold " style="
         font-size: 3rem;
-        background-color: #DFDFE1;
-        margin-left: 5rem;
+       background-image: linear-gradient(0deg, gray, white);
+        border-radius: 15px;
+        border: 2px solid #000;
         color: black;
-        font-size: 4rem;
-        font-weight: bold;
-        border-radius: 40px;
-        border-left:0;
-        border-right: 0;
-        font-weight: 500;
-        padding: 50px 80px;">Back</button>
+        border: 2px solid black;
+        font-weight: 700;
+        padding: 50px 130px;">Back</button>
       </div>
     </div>
 
+  </div>
   </div>
 
 </body>

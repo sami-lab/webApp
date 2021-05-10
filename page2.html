@@ -23,15 +23,15 @@
   </head>
   <body>
     <div>
-      <div class="h-100">
-        <div class="d-flex flex-column py-3 px-0 my-3 h-100" style="border: 1px solid black">
+      <div class="d-flex  justify-content-center flex-column" style="min-height: 100%;">
+        <div style="display: flex; flex-direction: column; border: 2px solid black; flex-grow: 1;" class="py-3 px-0 mx-3 my-3 ">
           <!-- Top scan heading -->
           <div
-            class="row mx-3 justify-content-between align-items-center py-3 px-3"
-            style="height: 15%;"
+          class="row mx-3 justify-content-between align-items-center mt-5 py-3 px-3"
+           
           >
             <div>
-              <h1 class="display-1">Location</h1>
+              <h1 class="display-3 font-weight-bold">Item</h1>
             </div>
             <div
               style="
@@ -41,7 +41,7 @@
               "
             >
               <i
-                class="fas fa-question-circle fa-4x"
+                class="fas fa-question-circle fa-5x"
                 style="color: #cfcbc8"
               ></i>
             </div>
@@ -52,20 +52,21 @@
               type="button"
               class="btn btn-outline-dark btn-block"
               style="
-                font-size: 3rem;
+                 font-size: 3rem;
+                border: 4px solid black;
                 border-radius: 40px;
-                border: 2px solid black;
                 border-left: 0;
                 border-right: 0;
-                font-weight: 500;
-                padding: 70px 0px;
+                font-weight: 600;
+                padding: 100px 0px;
+              
               "
             >
               Enter barcode to find a product
             </button>
           </div>
             <div style="flex: 1; display: flex; align-items: center; justify-content: center;">
-                 <h1 class="display-2" style="font-weight: 400;">Item Not Found</h1>
+                 <h1 class="display-1" style="font-weight: 600;">Item Not Found</h1>
             </div>
           <!-- 2 button -->
           <div style="margin-top: 100px; margin-bottom: 50px;">
